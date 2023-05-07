@@ -8,7 +8,7 @@ html {
 body {
 	font-family: 'Gloria Hallelujah', cursive;;
 	margin: 0;
-	padding: 1rem;
+	padding-top: 4.1rem;
 	background-color:#18A389;
 }
 
@@ -16,6 +16,10 @@ nav {
 	border-top: 3px solid #FD6240; 
 	border-bottom: 3px solid #FFFFA3; 
 	border-width: 0.2rem;
+	position: fixed;
+	top: 0.2rem; 
+	width: 100%; 
+	background-color: #8fdaa9;
   }
   nav ul {
 	list-style-type: none;
@@ -33,80 +37,18 @@ nav {
   nav a:hover {
 	color: #a1270b;
   }
-  
-.nav-item {
-	align-self: flex-end;
-	color: #3d6ded;
-  }
 
 section {
-	flex-basis: 57%;
-	margin-right: 10%;
+	margin-left: 1rem;
+	margin-top: 3rem;
+	font-size: 1.1rem;
 }
 
-[for="comments"], [type="submit"] {
-	margin-bottom: 0;
-	margin-top: 2rem;
-}
-fieldset {
-	border: 1px solid rgb(9, 29, 117);
-	border-radius: 10px;
-	margin-bottom: 2rem;
-}
-legend {
-	font-weight: bold;
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-	margin-bottom: 0.5rem;
-	/* border: 1px solid blue; 
-	use this to check an element is inline or block*/
-}
-label {
-	display:block
-}
-textarea {
-	height: 10rem;
-	padding: 1rem;
+p, .nav2, .nav3 {
+	margin-top: 3rem;
+	font-size: 1.3rem;
 }
 
-#comments {
-    padding-top: 0.5rem;
-	font-size: 1rem;
-}	
-
-button {
-	padding: 1rem;
-	border-radius: 5px;
-	background-color: #90c2b9;
-	font-size: 1rem;
-	font-weight: bold;
-}
-button:hover {
-	color:rgb(0, 80, 49);
-	background-color: rgb(210, 225, 240);
-}
-
-button:active {
-	color:rgb(196, 233, 219);
-	background-color:rgb(0, 80, 80);
-}
-
-input:not([type="radio"]):not([type="checkbox"]), textarea {
-	display:block;
-	margin-bottom: 2rem;
-	width: 20rem;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1rem;
-	padding: 0 1rem;
-	border: none;
-	border-radius: 1rem;
-}
-h1 {
-	font-family: 'Gloria Hallelujah', cursive;
-}
-address {
-	margin: 2rem 0 2rem 0;
-}
 iframe {
 	border-radius: 2rem;
 	margin: 0 0 2rem 0;

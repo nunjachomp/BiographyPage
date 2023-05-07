@@ -8,7 +8,7 @@ html {
 body {
 	font-family: 'Gloria Hallelujah', cursive; arial;
 	margin: 0;
-	padding: 1rem;
+	padding-top: 6rem; 
 	background-color:#18A389;
 }
 
@@ -16,6 +16,10 @@ nav {
 	border-top: 3px solid #FD6240; 
 	border-bottom: 3px solid #FFFFA3; 
 	border-width: 0.2rem;
+	position: fixed;
+	top: 0.2rem; 
+	width: 100%; 
+	background-color: #8fdaa9;
   }
   nav ul {
 	list-style-type: none;
@@ -34,14 +38,10 @@ nav {
 	color: #a1270b;
   }
   
-.nav-item {
-	align-self: flex-end;
-	color: #3d6ded;
-  }
-
 section {
 	flex-basis: 57%;
 	margin-right: 10%;
+	padding-left: 1rem;
 }
 
 fieldset {
@@ -57,9 +57,6 @@ legend {
 	/* border: 1px solid blue; 
 	use this to check an element is inline or block*/
 }
-label {
-	display:block
-}
 
 span {
 	color: red;
@@ -71,7 +68,7 @@ textarea {
 
 input, textarea {
 	display:block;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	width: 20rem;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
