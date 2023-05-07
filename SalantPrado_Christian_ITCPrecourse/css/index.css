@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {padding-top: 0.7rem;}
+h2 {font-size: 0.8rem; margin-top: -1rem; margin-left: 1rem;}
+h3 {font-size: 2rem;}
+
+body {
+  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+  font-family: 'Gloria Hallelujah', cursive; arial;
+  height: 100vh;
+  background-color: #BFEBA3;
+}
+
+nav {
+  border-bottom: 3px solid #FFFFA3; 
+  border-top: 3px solid #FD6240; 
+  border-width: 0.2rem;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding-inline: 2rem;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #a1270b;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+}
+
+.card {
+  align-items: center;
+  background-color: #3c7550;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+  padding: 30px;
+}
+
+.card:hover {
+  background-color: #7ABD91;
+}
+
+.card:active {
+  background-color: #00571e;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+.profile-image:hover {
+  opacity: 0.5; 
+}
+
+div ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+div a {
+  display: block;
+  padding-inline: 2rem;
+  text-decoration: none;
+}
+
+div a:hover {
+  color:#a1270b;
+}

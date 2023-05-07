@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/contact.css" rel="stylesheet">
+    <title>Get In Touch With Me!</title>             
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+    </ul>
+</nav>
+<section>
+    <h1>If you would like to collaborate with me, input your information, and one of my associates with get back to you!</h1>
+    <form action="https://formspree.io/f/mbjewbjk" method="POST">
+        <fieldset>
+            <legend>Your contact information</legend>
+            <label for="first name">First Name <span>*</span></label>
+                <input type="text" id="first name" name="first name" required>
+            <label for="last name">Last Name </label>
+                <input type="text" id="last name" name="last name">
+            <label for="email">Email <span>*</span></label>
+                <input type="email" id="email" name="email" required> 
+            <label for="phone">Phone number</label>   
+                <input type="tel" id="phone" name="phone" placeholder="+972-52-555-5555">
+            <label for="comments">Special requests:</label>
+                <textarea id="comments" name="comments" placeholder="Leave your comments and suggestions here!"></textarea>
+    <button type="submit">Submit Information!</button>
+    </fieldset>	
+</form>
+</section>
+</body>
+</html>
