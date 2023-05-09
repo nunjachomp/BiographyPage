@@ -59,10 +59,19 @@ p, h1 {
   margin-inline-start: 20px;
 }
 
+p {
+  margin-right: 3rem;
+}
+
+h1, h2 {
+  text-shadow: -2px 0 #B79B4E, 0 2px #B79B4E, 2px 0 #B79B4E, 0 -2px #B79B4E;
+}
+
 section {
   margin-inline-start: 20px;
 	float: left;
 	font-size: 1.1rem;
+  padding-right: 4rem;
 }
 
 h2 {
@@ -82,12 +91,12 @@ p, .nav2, .nav3 {
 .image-gallery {
     width: 50%;
     display: flex;
-    padding-left: 2rem;
+    border-radius: 2rem;
 }
 
 iframe {
 	border-radius: 2rem;
-	margin: 0 0 2rem 0;
+	margin: 0 0 0 0;
 }
 
 .gallery-img {
@@ -105,6 +114,7 @@ iframe {
     justify-content: center;
     align-items: center;
     float: center;
+    margin-top: 2rem;
 }
 
 .btn {
@@ -120,6 +130,11 @@ iframe {
 
 .prev {
     margin-right: 15px;
+    border: solid #B79B4E;
+}
+
+.next {
+  border: solid #B79B4E;
 }
 
 .btn:disabled {
