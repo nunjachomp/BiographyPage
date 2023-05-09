@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Gloria Hallelujah', cursive;;
+	margin: 0;
+	padding-top: 4.1rem;
+	background-color:#18A389;
+}
+
+nav {
+	border-top: 3px solid #FD6240; 
+	border-bottom: 3px solid #FFFFA3; 
+	border-width: 0.2rem;
+	position: fixed;
+	top: 0.2rem; 
+	width: 100%; 
+	background-color: #8fdaa9;
+  }
+  nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+  }
+  nav li {
+	display: inline-block;
+  }
+  nav a {
+	display: block;
+	padding-inline: 2rem;
+	text-decoration: none;
+  }
+  nav a:hover {
+	color: #a1270b;
+  }
+
+p, h1 {
+  margin-inline-start: 20px;
+}
+
+section {
+  margin-inline-start: 20px;
+	float: left;
+	font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+ol {
+  list-style: none;
+  padding-bottom: 2rem;
+}
+
+p, .nav2, .nav3 {
+	margin-top: 3rem;
+	font-size: 1.3rem;
+}
+
+.image-gallery {
+    width: 50%;
+    display: flex;
+    padding-left: 2rem;
+}
+
+iframe {
+	border-radius: 2rem;
+	margin: 0 0 2rem 0;
+}
+
+.gallery-img {
+    display:none;
+    max-height: 600px;
+}
+
+.active {
+    display: block;
+}
+
+.btns {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}
+
+.btn {
+    background-color: rgb(14, 128, 128);
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-top: 5px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev {
+    margin-right: 15px;
+}
+
+.btn:disabled {
+    background-color: rgb(110, 110, 110);
+    cursor: not-allowed;
+}
+
