@@ -2,26 +2,43 @@
   box-sizing: border-box;
 }
 
-h1 {padding-top: 0.7rem;}
-h2 {font-size: 0.8rem; margin-top: -1rem; margin-left: 1rem;}
-h3 {font-size: 2rem;}
+h1 {
+  padding-top: 0.7rem; 
+}
+
+h1, h3 {
+  text-shadow: -2px 0 #B79B4E, 0 2px #B79B4E, 2px 0 #B79B4E, 0 -2px #B79B4E;
+}
+
+h2 {
+  font-size: 0.8rem; 
+  margin-top: -1rem; 
+  margin-left: 1rem;
+  text-shadow: -1px 0 #B79B4E, 0 1px #B79B4E, 1px 0 #B79B4E, 0 -1px #B79B4E;
+}
+
+h3 {
+  font-size: 2rem;
+}
 
 body {
   font-family: 'Gloria Hallelujah', cursive;;
   background-color: #18A389;
+  background-image: url(../images/menorah-r2-t3\(final\).png);
+  background-size: 2.5rem;
   padding-top: 3rem;
 }
 
 nav { 
-  border-top: 3px solid #FD6240; 
-  border-bottom: 3px solid #FFFFA3;
+  border-top: 3px solid #B79B4E; 
+  border-bottom: 3px solid #B79B4E;
   border-width: 0.2rem;
   position: fixed;
   top: 0.2rem; 
   left: 0;
   width: 100%; 
   background-color: #8fdaa9;
-  
+  background-image: url(../images/ice-t1.png);
 }
 nav ul {
   list-style-type: none;
@@ -33,16 +50,30 @@ nav li {
 }
 nav a {
   display: block;
-  padding-inline: 2rem;
+  padding-inline: 3rem;
   text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: -1px 0 #B79B4E, 0 1px #B79B4E, 1px 0 #B79B4E, 0 -1px #B79B4E;
 }
+
 nav a:hover {
   color: #a1270b;
 }
 
+nav span {
+  color: #eccd98;
+  font-weight: 900;
+  text-shadow: -1px 0 #b6ab8f, 0 1px #b6ab8f, 1px 0 #b6ab8f, 0 -1px #b6ab8f;
+}
+
 .card {
   align-items: center;
-  background-color: #8fdaa9;
+  background-color: #7ABD91;
+  background-image: url(../images/ice-t1.png);
+  background-size: flex;
+  border: 3px solid #B79B4E;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -52,25 +83,34 @@ nav a:hover {
 }
 
 .card:hover {
-  background-color: #7ABD91;
+  background-color: #8fdaa9;
 }
 
 .card:active {
-  background-color: #598368;
+  background-color: #057986;
 }
 
 .profile-image {
+  border: 5px solid #B79B4E;
   border-radius: 50%;
   height: 180px;
   width: 180px;
+
+  -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
 }
 
 .profile-image:hover {
-  opacity: 0.5; 
-}
+  opacity: 1; 
 
-.profile-image:active {
-  
+  transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+  -webkit-mask-position: 120%;
+  mask-position: 120%;
+  opacity: 1;
 }
 
 div ul {
@@ -87,4 +127,23 @@ div a {
 
 div a:hover {
   color:#a1270b;
+}
+
+.fa-linkedin {
+  color: blue;
+  font-size: 2rem;
+}
+
+.fa-linkedin.fa-beat, .fa-github.fa-beat, .fa-stack-overflow.fa-beat {
+  --fa-animation-duration: 2s; --fa-beat-scale: 1.15;
+}
+
+.fa-github {
+  color: black;
+  font-size: 2rem;
+}
+
+.fa-stack-overflow {
+  color: #C75E0D;
+  font-size: 2rem;
 }
