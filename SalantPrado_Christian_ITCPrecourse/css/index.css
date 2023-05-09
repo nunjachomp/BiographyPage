@@ -14,6 +14,9 @@ h2 {
   font-size: 0.8rem; 
   margin-top: -1rem; 
   margin-left: 1rem;
+}
+
+h2, nav a, div a {
   text-shadow: -1px 0 #B79B4E, 0 1px #B79B4E, 1px 0 #B79B4E, 0 -1px #B79B4E;
 }
 
@@ -40,14 +43,17 @@ nav {
   background-color: #8fdaa9;
   background-image: url(../images/ice-t1.png);
 }
+
 nav ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
+
 nav li {
   display: inline-block;
 }
+
 nav a {
   display: block;
   padding-inline: 3rem;
@@ -55,7 +61,6 @@ nav a {
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
-  text-shadow: -1px 0 #B79B4E, 0 1px #B79B4E, 1px 0 #B79B4E, 0 -1px #B79B4E;
 }
 
 nav a:hover {
@@ -123,6 +128,7 @@ div a {
   display: block;
   padding-inline: 2rem;
   text-decoration: none;
+  color: white;
 }
 
 div a:hover {
