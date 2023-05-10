@@ -37,6 +37,7 @@ nav {
   border-bottom: 3px solid #B79B4E;
   border-width: 0.2rem;
   position: fixed;
+  z-index: 10;
   top: 0.2rem; 
   left: 0;
   width: 100%; 
