@@ -148,3 +148,26 @@ iframe {
     cursor: not-allowed;
 }
 
+main ol {
+  list-style-type: none;
+  display: inline-flex;
+  color: white;
+  background-color: #000;
+  width: 100%;
+  height: 2rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  }
+  
+  main ol ul li {
+    list-style-type: none;
+    min-width: 300px;
+  }
+  
+  main ol ul li a {
+    list-style-type: none;
+    display: contents;
+    color: #B79B4E;
+    font-size: 0.8rem;
+  }
