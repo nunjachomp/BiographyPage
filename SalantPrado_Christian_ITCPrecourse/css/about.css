@@ -57,6 +57,10 @@ nav {
     text-shadow: -1px 0 #b6ab8f, 0 1px #b6ab8f, 1px 0 #b6ab8f, 0 -1px #b6ab8f;
   }
   
+h1 {
+  padding-top: 4rem;
+}
+
 p, h1 {
   margin-inline-start: 20px;
 }
@@ -80,14 +84,14 @@ section {
   height: 10,000px;
 }
 
+h2 {
+  font-size: 1.7rem;
+}
+
 ol {
   font-size: 1.2rem;
   list-style: none;
   padding-bottom: 2rem;
-}
-
-h2 {
-  font-size: 1.7rem;
 }
 
 .image-gallery {
