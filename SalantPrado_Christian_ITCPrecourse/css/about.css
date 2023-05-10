@@ -171,3 +171,7 @@ main ol {
     color: #B79B4E;
     font-size: 0.8rem;
   }
+
+  main ol li a:hover {
+	color: #a1270b;
+  }

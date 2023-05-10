@@ -135,6 +135,7 @@ background-color: #000;
 width: 100%;
 height: 2rem;
 padding-top: 1rem;
+padding-bottom: 2rem;
 font-size: 0.8rem;
 white-space: nowrap;
 }
@@ -151,6 +152,8 @@ main ol ul li a {
   font-size: 0.8rem;
 }
 
-
+main ol li a:hover {
+	color: #a1270b;
+  }
 
 

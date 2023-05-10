@@ -183,3 +183,6 @@ main ol ul li a {
   font-size: 0.8rem;
 }
 
+main ol li a:hover {
+	color: #a1270b;
+  }
