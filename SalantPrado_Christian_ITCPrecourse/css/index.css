@@ -56,7 +56,7 @@ nav li {
 }
 
 nav a {
-  display: block;
+  display: flex;
   padding-inline: 3rem;
   text-decoration: none;
   color: black;
