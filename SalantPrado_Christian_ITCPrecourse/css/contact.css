@@ -1,51 +1,73 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
-	font-family: 'Gloria Hallelujah', cursive;;
-	margin: 0;
-	padding-top: 6rem; 
+	font-family: 'Courgette', 'cursive', 'comic sans';
 	background-color:#18A389;
+	background-image: url(../images/menorah-r2-t3\(final\).png);
+	background-size: 2.5rem;
+	padding-top: 6rem; 
 }
 
 nav {
-	border-top: 3px solid #FD6240; 
-	border-bottom: 3px solid #FFFFA3; 
+	border-top: 3px solid #B79B4E; 
+	border-bottom: 3px solid #B79B4E; 
 	border-width: 0.2rem;
 	position: fixed;
+	z-index: 10;
 	top: 0.2rem; 
+	left: 0;
 	width: 100%; 
 	background-color: #8fdaa9;
+	background-image: url(../images/ice-t1.png);
   }
+
   nav ul {
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
   }
+
   nav li {
 	display: inline-block;
   }
+
   nav a {
-	display: block;
-	padding-inline: 2rem;
+	display: flex;
+	padding-inline: 3rem;
 	text-decoration: none;
+	color: black;
+  	font-size: 1.5rem;
+  	font-weight: bold;
   }
+
   nav a:hover {
 	color: #a1270b;
   }
   
+  nav span {
+	color: #eccd98;
+	font-weight: 900;
+	text-shadow: -1px 0 #b6ab8f, 0 1px #b6ab8f, 1px 0 #b6ab8f, 0 -1px #b6ab8f;
+  }
+
 section {
 	flex-basis: 57%;
 	margin-right: 10%;
 	padding-left: 1rem;
 }
 
+nav a, h1, legend {
+	text-shadow: -1px 0 #B79B4E, 0 1px #B79B4E, 1px 0 #B79B4E, 0 -1px #B79B4E;
+}
+
 fieldset {
-	border: 1px solid rgb(9, 29, 117);
+	border: 3px solid #d0af75;
 	border-radius: 10px;
 	margin-bottom: 2rem;
 }
@@ -58,7 +80,7 @@ legend {
 	use this to check an element is inline or block*/
 }
 
-span {
+span1 {
 	color: red;
 }
 

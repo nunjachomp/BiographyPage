@@ -2,26 +2,8 @@
   box-sizing: border-box;
 }
 
-h1 {
-  padding-top: 0.7rem; 
-}
-
-h1, h3 {
-  text-shadow: -2px 0 #B79B4E, 0 2px #B79B4E, 2px 0 #B79B4E, 0 -2px #B79B4E;
-}
-
-h2 {
-  font-size: 0.8rem; 
-  margin-top: -1rem; 
-  margin-left: 1rem;
-}
-
-h2, nav a, div a {
-  text-shadow: -1px 0 #B79B4E, 0 1px #B79B4E, 1px 0 #B79B4E, 0 -1px #B79B4E;
-}
-
-h3 {
-  font-size: 2rem;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -72,6 +54,28 @@ nav span {
   color: #eccd98;
   font-weight: 900;
   text-shadow: -1px 0 #b6ab8f, 0 1px #b6ab8f, 1px 0 #b6ab8f, 0 -1px #b6ab8f;
+}
+
+h1 {
+  padding-top: 0.7rem; 
+}
+
+h1, h3 {
+  text-shadow: -2px 0 #B79B4E, 0 2px #B79B4E, 2px 0 #B79B4E, 0 -2px #B79B4E;
+}
+
+h2 {
+  font-size: 0.8rem; 
+  margin-top: -1rem; 
+  margin-left: 1rem;
+}
+
+h2, nav a, div a {
+  text-shadow: -1px 0 #B79B4E, 0 1px #B79B4E, 1px 0 #B79B4E, 0 -1px #B79B4E;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 .card {
