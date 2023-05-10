@@ -75,6 +75,8 @@ section {
 	float: left;
 	font-size: 1.1rem;
   padding-right: 4rem;
+  min-width: 600px;
+  height: 10,000px;
 }
 
 ol {
@@ -89,6 +91,8 @@ h2 {
 
 .image-gallery {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 2rem;
     margin-top: 1.5rem;
 }
@@ -108,11 +112,9 @@ iframe {
 }
 
 .btns {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    float: center;
     margin-top: 2rem;
 }
 
