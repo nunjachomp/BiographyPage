@@ -63,7 +63,7 @@ h1 {
   padding-top: 0.7rem;
 }
 
-h1, h2, .card {
+h1, h2 {
   margin-left: 1rem;
 }
 
@@ -99,6 +99,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 3rem;
+  margin: 20px;
   padding: 30px;
 }
 
