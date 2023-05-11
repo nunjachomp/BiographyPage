@@ -10,7 +10,7 @@ const subarray3 = progLangs.splice(0, 1);
 
 function generateListItems(fullList) {
   let items = "";
-  for(let i = 0; i < fullList.length; i++) {
+  for (let i = 0; i < fullList.length; i++) {
     items += `<li>${fullList[i]}</li>`;
   }
   return `This website has been created with: ${subarray}, ${subarray3} and ${subarray2}.`;
