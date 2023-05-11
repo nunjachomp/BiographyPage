@@ -130,13 +130,19 @@ button {
 }
 
 button:hover {
-	color: rgb(0, 80, 49);
-	background-color: #90c2b9;
+	color: #afebff;
+	background-color: rgb(30, 136, 136);
 }
 
 button:active {
-	color: #afebff;
+	color: rgb(0, 80, 49);
 	background-color: #42736E;
+}
+
+button:disabled {
+background-color: rgb(0, 80, 80);
+color: black;
+cursor:not-allowed;	
 }
 
 main ol {
