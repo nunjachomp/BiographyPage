@@ -16,8 +16,6 @@ function generateListItems(fullList) {
   return `This website has been created with: ${subarray}, ${subarray3} and ${subarray2}.`;
 }
 
-
-
 document.querySelector("main").innerHTML = `
 <ol>
 ${generateListItems(progLangs)}
@@ -30,4 +28,3 @@ ${generateListItems(progLangs)}
   </ul>
 </ol>
 `;
-

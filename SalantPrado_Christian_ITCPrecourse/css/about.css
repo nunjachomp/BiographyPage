@@ -162,6 +162,8 @@ main ol {
   padding-top: 1rem;
   font-size: 0.8rem;
   white-space: nowrap;
+  background-image: url(../images/ice-t1.png);
+	background-size: 100% 100%;
 }
 
 main ol ul li {

@@ -16,7 +16,7 @@ prevButton.addEventListener('click', function() {
 
 nextButton.addEventListener('click', function() {
     cityMaps[currentlySelected].classList.remove("active");
-    currentlySelected++; //currentlySelected = currentlySelected + 1
+    currentlySelected++;
     cityMaps[currentlySelected].classList.add("active");
     prevButton.disabled = false;
 

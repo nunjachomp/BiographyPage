@@ -63,7 +63,8 @@ h1 {
   padding-top: 0.7rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin-left: 1rem;
 }
 
@@ -183,6 +184,8 @@ main ol {
   padding-top: 1rem;
   font-size: 0.8rem;
   white-space: nowrap;
+  background-image: url(../images/ice-t1.png);
+	background-size: 100% 100%;
 }
 
 main ol ul li {
