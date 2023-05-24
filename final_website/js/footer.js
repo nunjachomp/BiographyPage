@@ -11,7 +11,7 @@ function generateListItems(fullList) {
   let items = "This website has been created with: ";
 
   let i = 0;
-  while (i < progLangs.length - 1) {
+  while (i < progLangs.length - 4) {
   items += progLangs[i] + ", "; i++;
 }
   let items3 = progLangs[i];
