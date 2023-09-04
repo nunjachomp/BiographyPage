@@ -1,6 +1,6 @@
-# Welcome to the Bytter Messaging App!
+# Welcome to the Official Website of Christian Salant!
 
-Are you tired of all the Twitter drama? Join the BytterVerse and make your voice heard, without all the background noise!
+Learn a bit more about your favorite developer!
 
 Website:
-https://bytterapp.web.app/
+https://nunjachomp.github.io/BiographyPage/index.html
