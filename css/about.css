@@ -1,0 +1,183 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Courgette', 'cursive', 'comic sans';
+  background-color: #18A389;
+  background-image: url(../images/menorah-r2-t3\(final\).png);
+  background-size: 2.5rem;
+  margin: 0;
+  padding-top: 4.1rem;
+}
+
+nav {
+  border-top: 3px solid #B79B4E;
+  border-bottom: 3px solid #B79B4E;
+  border-width: 0.2rem;
+  position: fixed;
+  z-index: 10;
+  top: 0.2rem;
+  width: 100%;
+  background-color: #8fdaa9;
+  background-image: url(../images/ice-t1.png);
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: flex;
+  padding-inline: 3rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: -1px 0 #B79B4E, 0 1px #B79B4E, 1px 0 #B79B4E, 0 -1px #B79B4E;
+}
+
+nav a:hover {
+  color: #a1270b;
+}
+
+nav span {
+  color: #eccd98;
+  font-weight: 900;
+  text-shadow: -1px 0 #b6ab8f, 0 1px #b6ab8f, 1px 0 #b6ab8f, 0 -1px #b6ab8f;
+}
+
+h1 {
+  padding-top: 4rem;
+}
+
+p,
+h1 {
+  margin-inline-start: 20px;
+}
+
+p {
+  margin-right: 3rem;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+h1,
+h2 {
+  text-shadow: -2px 0 #B79B4E, 0 2px #B79B4E, 2px 0 #B79B4E, 0 -2px #B79B4E;
+}
+
+section {
+  margin-inline-start: 20px;
+  float: left;
+  font-size: 1.1rem;
+  padding-right: 4rem;
+  min-width: 600px;
+  height: 10,000px;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+ol {
+  font-size: 1.2rem;
+  list-style: none;
+  padding-bottom: 2rem;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+}
+
+iframe {
+  border-radius: 2rem;
+  margin: 0 0 0 0;
+}
+
+.gallery-img {
+  display: none;
+  max-height: 600px;
+}
+
+.active {
+  display: block;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: rgb(14, 128, 128);
+  color: white;
+  font-size: 20px;
+  padding: 5px 20px;
+  margin-top: 5px;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev {
+  margin-right: 15px;
+  border: solid #B79B4E;
+}
+
+.next {
+  border: solid #B79B4E;
+}
+
+.btn:disabled {
+  background-color: rgb(110, 110, 110);
+  cursor: not-allowed;
+}
+
+main ol {
+  list-style-type: none;
+  display: inline-flex;
+  color: white;
+  background-color: #000;
+  min-width: 100%;
+  height: 2rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  background-image: url(../images/ice-t1.png);
+	background-size: 100% 100%;
+}
+
+main ol ul li {
+  list-style-type: none;
+  min-width: 300px;
+}
+
+main ol ul li a {
+  list-style-type: none;
+  display: contents;
+  color: #B79B4E;
+  font-size: 0.8rem;
+}
+
+main ol li a:hover {
+  color: #a1270b;
+}
